@@ -1,0 +1,53 @@
+/* Contact Info */
+.contact-info {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+/* Contact Form */
+.contact-form {
+    border: 3px solid rgba(147, 209, 17, 1);
+    border-radius: 30px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+@media (max-width: 767px) {
+    .contact-info {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .contact-form {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+.contact-form-title {
+    color: rgba(75, 53, 26, 1);
+    font-family: Livvic;
+    font-size: xxx-large;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-form-subtitle {
+    color: rgba(75, 53, 26, 1);
+    font-family: Numans;
+    font-size: xx-large;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contact-form-text-style{
+    color: rgba(75, 53, 26, 1);
+}
+
+.contact-form-input-box-style{
+    border: 1.51px solid rgba(105, 59, 3, 1)
+}
